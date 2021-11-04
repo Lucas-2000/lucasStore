@@ -1,0 +1,71 @@
+#component-card{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 100px;
+
+    .main-content {
+        display: inline;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 80px;
+        background: #D400FF;
+        justify-content: center;
+        border: solid 5px black;
+        border-radius: 40px;
+
+        h1 {
+            display: flex;
+            font: 700 24px 'Quicksand', sans-serif;
+            justify-content: center;
+            text-align: justify;
+        }
+
+        h6 {
+            display: flex;
+            font: 400 16px 'Quicksand', sans-serif;
+            justify-content: start;
+            margin-left: 30px;  
+        }
+
+        img {
+            display: flex;
+            width: 100%;
+            max-height: 200px;
+            justify-content: stretch;
+        }
+
+        h4 {
+            display: flex;
+            font: 500 20px 'Quicksand', sans-serif;
+            justify-content: start;
+            text-align: justify;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        h5 {
+            display: flex;
+            font: 500 18px 'Quicksand', sans-serif;
+            justify-content: start;
+            margin-left: 30px;
+        }
+
+        button {
+            display: flex;
+            font: 500 40px 'Quicksand', sans-serif;
+            justify-content: center;    
+            margin-left: 10px;
+            margin-bottom: 10px;
+            background: #D400FF;
+            border: none;
+            width: 100px;
+            cursor: pointer;
+            
+            &:hover {
+                color: yellow;
+            }
+        }
+    }
+
+}

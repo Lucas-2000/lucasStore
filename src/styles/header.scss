@@ -1,0 +1,33 @@
+#component-header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #181818;
+    width: 100%;
+    
+    header {
+        display: flex;
+        align-items: flex-start;
+
+        h1 {
+            display: flex;
+            padding: 0 32px;
+            font: 700 36px 'Quicksand', sans-serif;
+            color: #D400FF;
+        }
+
+        button {
+            margin-top: 30px;
+            margin-left: 120px;
+            border: none;
+            background: #181818;
+            color: #fff;
+            font: 500 24px 'Quicksand', sans-serif;
+            cursor: pointer;
+
+            &:hover {
+                color: violet;
+            }
+        }
+    }
+}
